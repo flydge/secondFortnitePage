@@ -8,6 +8,45 @@ main
       box-shadow: 0 0px 35px rgba(0, 0, 0, 0.25)
       margin-bottom: 200px
       border-radius: 0 0 20px 20px
+      table
+        thead
+          border-top: 4px solid white
+          tr
+            th
+              div
+                text-align: center
+                color: #999999
+                margin-right: 45px
+                &:first-child
+                  padding-left: 15px
+                &:last-child
+                  //padding-right: 10px
+
+        tbody
+          tr
+            td
+              text-align: center
+              i
+                color: #333333
+                font-size: 1.5rem
+              div
+                margin-right: 45px
+              .withIcon
+                display: flex
+                margin-right: -40px
+                .twitch_icon
+                  background-color: blueviolet
+                  border-radius: 100%
+                  width: 30px
+                  height: 30px
+                  display: flex
+                  justify-content: center
+                  align-items: center
+                  padding-top: 3px
+                  margin-left: 10px
+                  .icon-twitch
+                    font-size: 1rem
+                    color: white
       .modeImage
         width: 30px
         height: 20px

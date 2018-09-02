@@ -8,6 +8,37 @@ main .middleContent {
     box-shadow: 0 0px 35px rgba(0, 0, 0, 0.25);
     margin-bottom: 200px;
     border-radius: 0 0 20px 20px; }
+    main .middleContent-container table thead {
+      border-top: 4px solid white; }
+      main .middleContent-container table thead tr th div {
+        text-align: center;
+        color: #999999;
+        margin-right: 45px; }
+        main .middleContent-container table thead tr th div:first-child {
+          padding-left: 15px; }
+    main .middleContent-container table tbody tr td {
+      text-align: center; }
+      main .middleContent-container table tbody tr td i {
+        color: #333333;
+        font-size: 1.5rem; }
+      main .middleContent-container table tbody tr td div {
+        margin-right: 45px; }
+      main .middleContent-container table tbody tr td .withIcon {
+        display: flex;
+        margin-right: -40px; }
+        main .middleContent-container table tbody tr td .withIcon .twitch_icon {
+          background-color: blueviolet;
+          border-radius: 100%;
+          width: 30px;
+          height: 30px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-top: 3px;
+          margin-left: 10px; }
+          main .middleContent-container table tbody tr td .withIcon .twitch_icon .icon-twitch {
+            font-size: 1rem;
+            color: white; }
     main .middleContent-container .modeImage {
       width: 30px;
       height: 20px; }
@@ -115,7 +146,8 @@ body main .topContent {
               padding-top: 40px;
               width: 100%;
               box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-              z-index: 3; }
+              z-index: 1;
+              background-color: #999999; }
               body main .topContent-container-navigation-topRow-dropdowns-dropdown_value a {
                 color: white;
                 padding: 6px 1px;
