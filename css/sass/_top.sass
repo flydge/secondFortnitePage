@@ -1,0 +1,182 @@
+
+body
+  main
+    .topContent
+      font-family: Lato, sans-serif
+      width: 100%
+      height: 500px
+      display: flex
+      flex-wrap: wrap
+      flex-direction: column
+      justify-content: space-between
+      align-items: center
+      background-blend-mode: soft-light
+      background: rgb(15, 22, 49) url("https://images8.alphacoders.com/903/thumb-1920-903577.jpg") space center
+      &-container
+        margin: 20px 50px
+        margin-bottom: 0
+        height: 100%
+        display: flex
+        flex-wrap: wrap
+        flex-direction: column
+        justify-content: space-between
+        align-items: center
+        &-title
+          margin-top: 40px
+          color: white
+          font-weight: bold
+          font-size: 2rem
+        &-links
+          display: flex
+          background-color: rgba(0, 0, 0, 0.44)
+          border: 1px solid rgba(255, 255, 255, 0.56)
+          color: white
+          border-radius: 30px
+          &-link
+            padding: 5px 20px
+            border: 2px solid rgba(255, 255, 255, 0)
+            &:hover
+              background-color: rgba(0, 0, 0, 0.87)
+              border: 2px solid white
+              border-radius: 30px
+
+        &-navigation
+          padding: 30px 30px 0px 30px
+          width: 900px
+          height: 170px
+          border-radius: 20px 20px 0 0
+          background: rgba(153, 153, 153, 0.38)
+          display: flex
+          flex-wrap: wrap
+          flex-direction: column
+          justify-content: space-between
+
+          &-topRow
+            display: flex
+            justify-content: space-between
+            &-searchInput
+              position: relative
+              display: flex
+              input
+                background: none
+                padding: 10px 15px
+                padding-right: 40px
+                border-radius: 30px
+                border: 1px solid white
+                color: white
+              input::placeholder
+                color: white
+              .icon-search
+                //position: absolute
+                color: white
+                margin-left: -40px
+                margin-top: 8px
+                font-size: 1rem
+            &-dropdowns
+              display: flex
+              &-dropdown
+                position: relative
+                display: flex
+                flex-wrap: wrap
+                justify-content: center
+                margin-right: 5px
+                &_button
+                  position: relative
+                  outline: none
+                  padding: 3px 10px
+                  border: 1px solid white
+                  border-radius: 40px
+                  display: flex
+                  justify-content: space-between
+                  align-items: center
+                  color: white
+                  z-index: 2
+                  height: 2.5rem
+                  &:hover
+                    background-color: #999999
+                  .label
+                    margin-left: 15px
+                  .icon-down-dir
+                    font-size: 1.3rem
+                    color: white
+                &_value
+                  display: none
+                  position: absolute
+                  border: 1px solid white
+                  border-radius: 20px
+                  padding-top: 40px
+                  width: 100%
+                  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+                  z-index: 3
+                  a
+                    color: white
+                    padding: 6px 1px
+                    text-decoration: none
+                    display: block
+                    &:hover
+
+                      background-color: #999999
+                      width: 100%
+                      &:last-child
+                        border-radius: 0 0 19px 19px
+                &:hover
+                  .dropdown
+                    display: flex
+                    flex-wrap: wrap
+                    flex-direction: column
+                    justify-content: space-between
+                    align-items: center
+          &-middleRow
+            display: flex
+            justify-content: space-between
+            padding: 0 20px
+            &-left
+              display: flex
+              &-twitch
+                display: flex
+                align-items: center
+                &_label
+                  color: white
+                  margin-right: 10px
+                &_icon
+                  background-color: white
+                  border-radius: 100%
+                  width: 30px
+                  height: 30px
+                  display: flex
+                  justify-content: center
+                  align-items: center
+                  padding-top: 3px
+                  .icon-twitch
+                    color: blueviolet
+            &-right
+              display: flex
+              &_label
+                color: #999999
+                margin-right: 10px
+              &_text
+                color: white
+          &-bottomRow
+            display: flex
+            justify-content: center
+            &-linksContainer
+              display: flex
+              margin-bottom: -30px
+              &-link
+                width: 60px
+                height: 60px
+                border-radius: 100%
+                color: #999
+                background-color: #e2e2e2
+                display: flex
+                justify-content: center
+                align-items: center
+                font-size: 2rem
+                margin: 0 5px
+                z-index: 2
+                box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3)
+                &:hover
+                  box-shadow: 0 5px 12px rgba(81, 149, 71, 0.57)
+                  color: green
+
+
