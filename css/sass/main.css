@@ -113,6 +113,8 @@ body main .topContent {
             font-size: 1rem; }
         body main .topContent-container-navigation-topRow-dropdowns {
           display: flex; }
+          body main .topContent-container-navigation-topRow-dropdowns:hover {
+            color: black; }
           body main .topContent-container-navigation-topRow-dropdowns-dropdown {
             position: relative;
             display: flex;
@@ -129,7 +131,7 @@ body main .topContent {
               justify-content: space-between;
               align-items: center;
               color: white;
-              z-index: 2;
+              z-index: 10;
               height: 2.5rem; }
               body main .topContent-container-navigation-topRow-dropdowns-dropdown_button:hover {
                 background-color: #999999; }
@@ -146,7 +148,7 @@ body main .topContent {
               padding-top: 40px;
               width: 100%;
               box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-              z-index: 1;
+              z-index: 5;
               background-color: #999999; }
               body main .topContent-container-navigation-topRow-dropdowns-dropdown_value a {
                 color: white;
